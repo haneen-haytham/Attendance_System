@@ -1,0 +1,6 @@
+MONGODB_URI=mongodb+srv://haneenhaytham67_db_user:ITPROJECT2026@mydatabase.nqjwixw.mongodb.net/?appName=MyDataBase
+PORT=4001
+SERIAL_PORT=COM10
+SERIAL_BAUD_RATE=115200
+SERIAL_DEBUG=false
+DEFAULT_SESSION_DURATION_MINUTES=120

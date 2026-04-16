@@ -1,0 +1,13 @@
+{
+  "name": "attendance-projecttt",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix Backend && npm install --prefix prof_dash && npm install --prefix student_dash",
+    "start:all": "concurrently \"npm start --prefix Backend\" \"npm run dev --prefix prof_dash\" \"npm run dev --prefix student_dash\"",
+    "build:frontends": "npm run build --prefix prof_dash && npm run build --prefix student_dash"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
