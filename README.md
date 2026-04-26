@@ -1,24 +1,24 @@
-# 🎓 RFID Attendance System
+#  RFID Attendance System
 
 A smart attendance system that uses RFID technology + Web Dashboard to track student attendance in real-time.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 📡 RFID-based student identification
-* 🧠 Automatic attendance marking
-* 📊 Dashboard with real-time statistics
-* 👩‍🎓 Student attendance tracking & reports
-* 📅 Lecture session management (start / end sessions)
-* 🔔 Buzzer + LED feedback for access control
-* 🌐 Full-stack system (Hardware + Backend + Frontend)
+*  RFID-based student identification
+*  Automatic attendance marking
+*  Dashboard with real-time statistics
+*  Student attendance tracking & reports
+*  Lecture session management (start / end sessions)
+*  Buzzer + LED feedback for access control
+*  Full-stack system (Hardware + Backend + Frontend)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 💻 Backend
+###  Backend
 
 * Node.js
 * Express.js
@@ -26,12 +26,12 @@ A smart attendance system that uses RFID technology + Web Dashboard to track stu
 * Mongoose
 * SerialPort (for RFID communication)
 
-### 🎨 Frontend
+###  Frontend
 
 * React.js
 * Dashboard UI
 
-### 🔌 Hardware
+###  Hardware
 
 * ESP32
 * MFRC522 RFID Sensor
@@ -39,7 +39,7 @@ A smart attendance system that uses RFID technology + Web Dashboard to track stu
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Student scans RFID card
 2. ESP32 reads UID and sends it via Serial
@@ -50,7 +50,7 @@ A smart attendance system that uses RFID technology + Web Dashboard to track stu
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -70,9 +70,9 @@ project/
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/your-username/rfid-attendance.git
@@ -81,7 +81,7 @@ cd rfid-attendance
 
 ---
 
-### 2️⃣ Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -105,7 +105,7 @@ npm start
 
 ---
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 
 ```bash
 cd rfid-attendance
@@ -115,7 +115,7 @@ npm run dev start:all
 
 ---
 
-### 4️⃣ Hardware Setup
+### Hardware Setup
 
 * Connect **MFRC522** to ESP32 using SPI
 * Upload Arduino code
@@ -123,33 +123,33 @@ npm run dev start:all
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
-### 🎯 Start Session
+###  Start Session
 
 ```
 POST /session/start
 ```
 
-### 🛑 End Session
+###  End Session
 
 ```
 POST /session/end
 ```
 
-### 📥 Scan RFID
+###  Scan RFID
 
 ```
 POST /attendance/scan-rfid
 ```
 
-### 📊 Dashboard Overview
+###  Dashboard Overview
 
 ```
 GET /dashboard/overview
 ```
 
-### 📚 Session History
+###  Session History
 
 ```
 GET /session/history
